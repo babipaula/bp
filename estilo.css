@@ -1,0 +1,57 @@
+
+body{
+
+	background-color:#f9fafc;
+}
+
+h2 {
+	font-size:2rem;
+	color: #394285;
+}
+
+h3{
+	color: #394285;
+}
+
+p{
+	font-size: 1.3rem;
+	color: #82868c;
+}
+#sobre div {
+
+	margin-bottom: 3rem;
+}
+
+#banner{
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	background-color: #4974ea;
+	background-image: url("Imagens/BP_Soluções_Banner.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 30rem;
+}
+
+.titulo_secao{
+	margin-top: 5rem;
+	margin-bottom: 3rem;	
+}
+
+#rodape{
+	background-color:#4974ea;
+	padding: 0.5rem;
+}
+footer p{
+	
+	color: white;
+}
+
+#nav{
+	background-color: #4974ea;
+	height: 4rem;
+}
+
+#nav p{
+	color: white;
+}

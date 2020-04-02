@@ -1,0 +1,20 @@
+Projeto #1 
+Título: Site Institucional BP Soluções
+
+Interessado: Bárbara de Paula Silva
+
+Equipe
+Design: Bárbara de Paula Silva
+Front-end: Bárbara de Paula Silva
+Back-end: Bárbara de Paula Silva
+
+Recursos Utilizados: HTML, CSS, Javascript
+
+Descrição: Desenvolvimento e administração do site institucional BP Soluções e criação de conteúdo.
+
+LOG:
+
+14/03/2020 - Bárbara de Paula - Busca de inspiração para o layout e desenvolvimento do background do banner (gimp).
+16/03/2020 - Bárbara de Paula - Adição de ícones (gimp)
+17/03/2020 - Bárbara de Paula - Adição do logotipo e sobre.
+01/04/2020 - Bárbara de Paula - Bootstrap
