@@ -16,31 +16,82 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<!--Font wesome-->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+
 </head>
 
 	<body>
 
 		<div class="container-fluid center">
 
-			<div id="nav" class="row navbar fixed-top">
-				<p> navbar</p>
+			<div id="nav" class="row fixed-top">
 
-			</div>
 
-			<div class="row align-items-center">
-				<div class="col-12 text-center" id="banner">
+				<div class="col-12 desktop">
+					
+
+						<p><b><a href="index.html"><i class="fas fa-heart"></i> BP Soluções </a></b></p>
 				
-					<img class="img-fluid" src="logo.png">
+						<ul>
+							<li> <a href=""> SERVIÇOS</a></li>
+							<li> <a href=""> SOBRE </a></li>
+							<li> <a href=""> CONTATO </a></li>
+							<li> <a href=""> BLOG </a></li>
+						</ul>
+						<div class="clear"></div>
+					
+				</div>
+
+				<div class="col-12 mobile">
+				
+					<p><b> <a href="index.html"><i class="fas fa-heart"></i> BP Soluções </a></b></p>
+					<h3 id="mobileh3"><i class="fa fa-bars"> </i> </h3>
+					<ul id="mobileul">
+						<li> <a href=""> SERVIÇOS</a></li>
+						<li> <a href=""> SOBRE </a></li>
+						<li> <a href=""> CONTATO </a></li>
+						<li> <a href=""> BLOG </a></li>
+					</ul>
+
+					<div class="clear"></div>
+
+				</div>
+
+				
+
+				</div>
+			</div>
+			
+
+
+			<div class="row">
+				<div class="col-12" id="banner">
+
+					<img id="logo" class="img-fluid" src="imagens/logo.svg">
 
 				</div>
 			</div>
 
+
+			
+
 			<div id="Servicos" class="row">
+
+				<div class="col-12 text-center" style="padding:2rem;;"><h2 class="text-center"> Serviços</h2></div>
 				
 				<div class="col-12 col-md-3">
 					<article class="text-center">
-						<img class="img-fluid" id="pc_icon" src="pc_icon.png">
+						<div class="circle">
+							<img class="img-fluid" id="pc_icon" src="pc_icon.png">
+						</div>
+						<br>
 						<h2>Sites e Páginas Pessoais</h2>
 						<p>Precisa de um site para o seu negócio? Nós temos a solução.</p>				
 					</article>
@@ -48,7 +99,10 @@
 				
 				<div class="col-12 col-md-3">
 					<article class="text-center">
-						<img class="img-fluid" id="cart_icon" src="cart_icon.png">
+						<div class="circle">
+							<img class="img-fluid" id="cart_icon" src="cart_icon.png">
+						</div>
+						<br>
 						<h2>E-commerce</h2>
 						<p>Planejando montar uma loja online? Nós podemos ajudar.</p>	
 					</article>
@@ -56,7 +110,10 @@
 
 				<div class="col-12 col-md-3">
 					<article class="text-center">
-						<img class="img-fluid" id="mobile_icon" src="mobile_icon.png">
+						<div class="circle">
+							<img class="img-fluid" id="mobile_icon" src="mobile_icon.png">
+						</div>
+						<br>
 						<h2>Aplicativos</h2>
 						<p>Desenvolvemos aplicativos para android e ioS sob medida para você.</p>	
 					</article>
@@ -64,7 +121,10 @@
 
 				<div class="col-12 col-md-3">
 					<article class="text-center">
-						<img class="img-fluid" id="dev_icon" src="DEV_ICON.png">
+						<div class="circle">
+							<img class="img-fluid" id="dev_icon" src="dev_icon.png">
+						</div>
+						<br>
 						<h2>Soluções Personalizadas</h2>
 						<p>Não encontrou a solução que precisa no mercado ou as que estão disponíveis não atendem plenamente o seu negócio? Nós desenvolvemos o que você precisa, a um preço acessível e com alta qualidade. </p>		
 					</article>
@@ -77,40 +137,58 @@
 					<h2> Sobre</h2>
 				</div>
 					
-					<div class="col-12 order-2 col-md-6 order-md-1 text-center">
+					<div class="col-12 order-1 col-md-6 order-md-1 text-center">
 						<article class="text-justify">
-							<br>
 							<p>A BP Soluções é uma startup voltada para o desenvolvimento de soluções personalizadas que ofereçam, principalmente, <b>produtividade</b>, a um <b>preço acessível</b> para profissionais autônomos, pequenas e médias empresas.</p>
-							<br>
 							<p>Nossa missão é oferecer soluções que realmente atendam as necessidades do seu negócio, a um custo acessível, garantindo sempre a confiabilidade e segurança. </p>
 							<b><p>Nossos produtos devem ser capaz de entregar resultados que agreguem valor ao seu negócio.</p></b>
-							<br>
-							<p>Entendemos que a <b>dedicação</b>,  a <b>responsabilidade</b>, o <b>respeito</b> e a <b>busca pela excelência </b>são a base de qualquer negócio.</p>
-							<p>Pautar as nossas ações visando sempre a <b>cooperação</b> e <b>solidariedade</b> é a chave para o crescimento dos nossos clientes e, por consequência, o nosso crescimento.</p>
 						</article>
 					</div>
 					
-					<div class="col-12 order-1 col-md-6 order-md-2 text-center">
+					<div class="col-12 order-2 col-md-6 order-md-2 text-center">
 						<img class="img-fluid" src="undraw_work_together.png">
 					</div>
-					
-			
 
 			</div>
 
 			<div id="contato" class="row">
+				<div class="col-12 text-center titulo_secao"><h2>Contato </h2></div>
 				
+				<br>
+				
+				<div class="col-12 text-center"><p> <b>Entre em contato para conferir nossos produtos!</b> </p> </div>
+				
+				<br>
+				<br>
+
+				<div id="contatos" class="col-12 text-center">
+					<p> <i class="far fa-envelope"></i> <b>Email:</b> bziontech@gmail.com</p>
+					<p> <i class="fab fa-whatsapp"></i> <b>Telefone/Whatsapp:</b> +55 11 99926-8854</p>
+					<p> <i class="far fa-clock"></i> <b>Horário de Atendimento:</b> Seg. a Sáb. das 07:00 às 17:00.</p>
+				</div>
+
+				<br>
+
 			</div>
 
 			<div id="rodape" class="row ">
 				<div class="col-12">
 					<footer>
-						<p class="col-12 text-center"> <b> Made with &#10084 by BP Soluções - 2020 </b></p>
+						<p class="col-12 text-center"> <b> Made by BP Soluções - 2020 </b></p>
 					</footer>
 				</div>
 			</div>
 
 		</div>
+
+		<script>
+
+			$("#mobileh3").click(function(){
+ 				 $("#mobileul").slideToggle();
+				});
+
+
+		</script>
 
 	</body>
 </html>

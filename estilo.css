@@ -4,8 +4,12 @@ body{
 	background-color:#f9fafc;
 }
 
+.clear{
+	clear: both;
+}
+
 h2 {
-	font-size:1.5rem;
+	font-size:1.40rem;
 	color: #394285;
 }
 
@@ -14,44 +18,156 @@ h3{
 }
 
 p{
-	font-size: 1rem;
-	color: #82868c;
+	font-size: 1.28rem;
+	color: #686B6F;
 }
 #sobre div {
 
 	margin-bottom: 3rem;
+
 }
+
+#sobre img{
+
+	height:18.2rem;
+	width:35rem;
+}
+
+#sobre p{
+
+	margin-left: 2rem;
+}
+
+
 
 #banner{
-	display:flex;
-	text-align:center;
-	justify-content:center;
-	background-color: #4974ea;
-	background-image: url("BP_Soluções_Banner.png");
-	background-repeat: no-repeat;
+	background-image: url("BP_Soluções_Banner.svg");
+	background-size:auto;
 	background-position: top center;
-	height: 30rem;
+	height: 27rem;
+	display:flex;
+	align-items: center;
+	
 }
 
+
 .titulo_secao{
-	margin-top: 5rem;
+	margin-top: 3rem;
 	margin-bottom: 3rem;	
 }
 
 #rodape{
-	background-color:#4974ea;
+	background-color:#839EE8;
 	padding: 0.5rem;
+	margin-top: 2rem;
 }
 footer p{
 	
-	color: white;
+	color:#ffffff;
 }
 
 #nav{
-	background-color: #4974ea;
-	height: 4rem;
+	display: flex;
+	background-color: #839EE8;
+	height: 5.5rem;
+}
+
+
+#nav .desktop li{
+	display: inline-block;
+	padding: 2rem;
+	float: right;
+
+}
+
+#nav li:hover{
+
+	background-color: #394285;
+}
+
+#nav a{
+	text-decoration: none;
+	color: #ffffff;
 }
 
 #nav p{
-	color: white;
+	margin-top: 1.5rem;
+	color: #ffffff;
+	display: inline-block;
+	float: left;
+	margin-left: 1rem;
+}
+
+.mobile{
+	display: none;
+}
+
+
+#logo{
+	width:40rem;
+	height: 40rem;
+	margin: 0 auto;
+}
+
+.circle{
+	border: 1px solid #EFEFF4 ;
+	background-color: #EFEFF4 ;
+	margin: 0 auto;
+	width: 14rem;
+	width: 14.5rem;
+	border-radius: 28rem;
+	-o-border-radius:28rem;
+	-moz-border-radius:28rem;
+}
+
+@media screen and (max-width:1024px){
+
+	.desktop{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+	}
+
+	.mobile p{
+		display: inline;
+		float: center;
+
+	}
+
+	#nav .mobile h3{
+		cursor: pointer;
+		color: #ffffff;
+		position: absolute;
+		right: 2rem;
+		top: 1rem;
+	}
+
+	#nav .mobile ul{
+		position: absolute;
+		top: 4rem;
+		right: 0.5rem;
+		list-style: none;
+		width: 104%;
+		display: none;
+	}
+	#nav .mobile li{
+		border: 1px solid white;
+		padding: 1rem 2rem;
+		background-color:#839EE8 ;
+		
+	}
+
+	#nav .mobile li:hover{
+
+		background-color:#394285;
+		
+	}
+
+}
+
+#Servicos p {
+
+	font: 0.5rem;
 }
