@@ -112,14 +112,16 @@ footer p{
 }
 
 .circle{
+	display: flex;
 	border: 1px solid #EFEFF4 ;
 	background-color: #EFEFF4 ;
 	margin: 0 auto;
-	width: 14rem;
-	width: 14.5rem;
-	border-radius: 28rem;
-	-o-border-radius:28rem;
-	-moz-border-radius:28rem;
+	width: 11rem;
+	height: 11rem;
+	border-radius: 22rem;
+	-o-border-radius:22rem;
+	-moz-border-radius:22rem;
+	align-items: center;
 }
 
 @media screen and (max-width:1024px){
@@ -167,9 +169,4 @@ footer p{
 		
 	}
 
-}
-
-#Servicos p {
-
-	font: 0.5rem;
 }
